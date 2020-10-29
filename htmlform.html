@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body  bgcolor=#cce6ff>
+
+	<center>
+		<h1 style="color: maroon;">ARYABHATTA COLLEGE <br>(UNIVERSITY OF DELHI)</h1>
+	</center>
+	<form name="form1" action="report.php" method="get" onsubmit="return validate()" >
+		<fieldset>
+			<legend align="center">
+				<h3>Admission Form</h3>
+			</legend>
+		
+		<table cellspacing="3" cellpadding="8" align="center">
+			<tr>
+				<td>
+					<label>Name of the students<span style="color: red">*</span> : </label>
+				</td>
+				<td>
+					<input class="textfield" type="text" name="username" >
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Roll No. of the students<span style="color: red">*</span> : </label>
+				</td>
+				<td>
+					<input class="textfield" type="text" name="rollno">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Email of the students : </label>
+				</td>
+				<td>
+					<input class="textfield" type="text" name="email">
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+					<label>Age of the students : </label>
+				</td>
+				<td>
+					<input class="textfield" type="number" name="age">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Gender of the students : </label>
+				</td>
+				<td>
+					<input type="radio" name="gender">Male
+					<input type="radio" name="gender">Female
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Socities opted by students : </label>
+				</td>
+				<td>
+					<input type="checkbox" name="socities">Zero hour - The Debating Society
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="checkbox" name="socities">Techpioneer<br>
+					<input type="checkbox" name="socities">Arts and Cultural Society 
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="checkbox" name="socities">Dance Society<br>
+					<input type="checkbox" name="socities">Rangmanch - The Theatre Society
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="checkbox" name="socities">Enactus
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Name of the Course : </label>
+				</td>
+				<td>
+					<select>
+						<option>B.Sc. (H) Computer Science</option>
+						<option>B.A. (H) Economics</option>
+						<option>B.A. (H) Business Economics</option>
+						<option>B.A. (H) Political Science</option>
+						<option>B.A. (H) English</option>
+						<option>B.A. (H) Hindi</option>
+						<option>B.Sc (H) Mathematics</option>
+						<option>Bachelor in Management Studies</option>
+						<option>B. A. (H) Psychology</option>
+						<option>B. A. (H) History</option>
+						<option>B.COM (Hons)</option>
+						<option>B.Com</option>
+						<option>B.A PROGRAMME</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<fieldset>
+						<legend>Address :</legend>
+						<textarea placeholder="Address of student" cols="84" rows="10"></textarea>
+					</fieldset>
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+					<label>Photo of Student</label> <br>
+					<input type="file" name="photo_of_student">
+				</td>
+
+				<td>
+					<center>
+						<label>Print the Form : </label><br>
+						<input type="button" name="print" onclick="window.print()" value="Print">
+					</center>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<center>
+						<input type="submit" name="Submit">
+					</center>
+				</td>
+			</tr>
+		</table>
+	</fieldset>
+	</form>
+	<center>
+		<h3>Garv Sharma <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSC/19/76</h3>
+	</center>
+	<script src="Que1.js" type="text/javascript">
+
+	</script>
+</body>
+</html>
